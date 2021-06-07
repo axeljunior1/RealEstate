@@ -1,0 +1,66 @@
+body {
+
+  object-fit: cover;
+  background-image: linear-gradient(
+    rgba(246, 163, 34, 0.7),
+    rgba(246, 163, 34, 0.7)
+  ),url("../assets/bg.jpg");
+ 
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+#title {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "viga", Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#frame {
+  margin-top: 39px;
+  padding: 45px;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 17px;
+  color:#F6A322;
+  background-color: white;
+  border: 2px solid #F6A322;
+  border-radius: 47px;
+  box-shadow: 20px 20px 30px #00000029;
+}
+#frame .txt {
+  font-size: 16px;
+}
+
+.logo{
+  width: 200px;
+}
+
+.secondcontainer {
+  margin-top: 30px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  /*margin-left: 50px;*/
+  width: 100%;
+}
+
+
+.socialicon {
+  width: 35px;
+}
+
+
+.ligne{
+  border-bottom :1px solid white;
+  margin-left: 7%;
+  width: 980px !important;
+}
+
